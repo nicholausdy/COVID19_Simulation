@@ -9,23 +9,27 @@ This will lead to more accurate system to predict Indonesia's current projectory
 ### Creator
 - Cindy A.
 - G. Gilbert
-- Nicholaus D.Y.
+- Nicholaus D.Y.<br>
 ### Data Source
 - [Corona Virus World-Wide](https://www.worldometers.info/coronavirus/ "Corona Virus Cases World-wide")
 - [Japanese Corona Case Per Day](https://corona.lmao.ninja/v2/historical/japan)
 - [Italy Corona Case](https://pomber.github.io/covid19/timeseries.json)
 - [Parameter Source_1](https://www.who.int/docs/default-source/coronaviruse/who-china-joint-mission-on-covid-19-final-report.pdf)
-- [Parameter Source_2](https://www.cdc.gov/mmwr/volumes/69/wr/mm6912e2.htm)
+- [Parameter Source_2](https://www.cdc.gov/mmwr/volumes/69/wr/mm6912e2.htm)<br>
 ### Main Function
 1. The Monte-Carlo system will make a projection of cases from the parameters given.
 2. The RNN system will then make use of the data generated from Monte-Carlo system and then use it as template.
-3. The RNN system will also take account of historical data from other countries to project the prediction.
+3. The RNN system will also take account of historical data from other countries to project the prediction.<br>
 ### Usage
 1. To predict which country needs more preparation.
 2. To alarm countries of the potential risk of pandemic.
-3. To inform the citizen of the expected range of pandemic so they may remain calm that it is in the prediction range.
+3. To inform the citizen of the expected range of pandemic so they may remain calm that it is in the prediction range.<br>
+### System Requirements
+1. Jupyter Notebook.
+2. Google Colab.
+3. Similar Programs.<br>
 ### Note/Justification
 1. The RNN uses historical data that has decreasing amount of daily case to a newly infected country.<br>
 2. This way, the country that has decreasing amount of daily case can be assumed to had reached the shaped of the pandemic event.<br>
-3. The policy regarding the handling of COVID-19 of Japanese government is observed to be similar with that of Indonesia's.
-4. The death and recovery rate were picked from the country that has the similar rate with Indonesia, in this case Italy was chosen.
+3. The policy regarding the handling of COVID-19 of Japanese government is observed to be similar with that of Indonesia's.<br>
+4. The death and recovery rate were picked from the country that has the similar rate with Indonesia, in this case Italy was chosen.<br>
