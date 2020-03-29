@@ -1,11 +1,11 @@
-# COVID-HACKATON 2020
+# COVID-HACKATHON 2020
 ## SARS-COV-2 Simulation of Indonesia
 ### Overview
 A system is developed to predict the on-going pandemic that is currently experienced by the world.
 The system is using a Monte-Carlo mathematical model, in order to reduce 
 data overfit, the obtained data is then applied to RNN data learning. 
 This will lead to more accurate system to predict Indonesia's current projectory of casualties to help local authorities to prepare measurement that would prevent the spreading of the pandemic.
-<br>This system is created in event of COVID-HACKATON 2020 dating 27 March to 29 March.
+<br>This system is created in event of COVID-HACKATHON 2020 dating 27 March to 29 March.
 ### Creator
 - Cindy A.
 - G. Gilbert
@@ -23,3 +23,7 @@ This will lead to more accurate system to predict Indonesia's current projectory
 1. To predict which country needs more preparation.
 2. To alarm countries of the potential risk of pandemic.
 3. To inform the citizen of the expected range of pandemic so they may remain calm that it is in the prediction range.
+### Note/Justification
+The RNN uses historical data that has decreasing amount of daily case to a newly infected country.<br>
+This way, the country that has decreasing amount of daily case can be assumed to had reached the shaped of the pandemic event.<br>
+The policy regarding the handling of COVID-19 of Japanese government is observed to be similar with that of Indonesia's.
