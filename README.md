@@ -24,6 +24,6 @@ This will lead to more accurate system to predict Indonesia's current projectory
 2. To alarm countries of the potential risk of pandemic.
 3. To inform the citizen of the expected range of pandemic so they may remain calm that it is in the prediction range.
 ### Note/Justification
-The RNN uses historical data that has decreasing amount of daily case to a newly infected country.<br>
-This way, the country that has decreasing amount of daily case can be assumed to had reached the shaped of the pandemic event.<br>
-The policy regarding the handling of COVID-19 of Japanese government is observed to be similar with that of Indonesia's.
+1. The RNN uses historical data that has decreasing amount of daily case to a newly infected country.<br>
+2. This way, the country that has decreasing amount of daily case can be assumed to had reached the shaped of the pandemic event.<br>
+3. The policy regarding the handling of COVID-19 of Japanese government is observed to be similar with that of Indonesia's.
