@@ -8,7 +8,7 @@ This will lead to more accurate system to predict Indonesia's current projectory
 <br>This system is created in event of COVID-HACKATHON 2020 dating 27 March to 29 March.
 ### Creator
 - Cindy A.
-- G. Gilbert
+- Gerardo G.
 - Nicholaus D.Y.<br>
 ### Data Source
 - [Corona Virus World-Wide](https://www.worldometers.info/coronavirus/ "Corona Virus Cases World-wide")
