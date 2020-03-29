@@ -13,6 +13,7 @@ This will lead to more accurate system to predict Indonesia's current projectory
 ### Data Source
 - [Corona Virus World-Wide](https://www.worldometers.info/coronavirus/ "Corona Virus Cases World-wide")
 - [Japanese Corona Case Per Day](https://corona.lmao.ninja/v2/historical/japan)
+- [Italy Corona Case](https://pomber.github.io/covid19/timeseries.json)
 - [Parameter Source_1](https://www.who.int/docs/default-source/coronaviruse/who-china-joint-mission-on-covid-19-final-report.pdf)
 - [Parameter Source_2](https://www.cdc.gov/mmwr/volumes/69/wr/mm6912e2.htm)
 ### Main Function
@@ -27,3 +28,4 @@ This will lead to more accurate system to predict Indonesia's current projectory
 1. The RNN uses historical data that has decreasing amount of daily case to a newly infected country.<br>
 2. This way, the country that has decreasing amount of daily case can be assumed to had reached the shaped of the pandemic event.<br>
 3. The policy regarding the handling of COVID-19 of Japanese government is observed to be similar with that of Indonesia's.
+4. The death and recovery rate were picked from the country that has the similar rate with Indonesia, in this case Italy was chosen.
